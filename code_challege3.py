@@ -1,9 +1,12 @@
-a = input("What is your name? ") 
-s = input("How much the fare fee? ")
-d = input("Are you a student? ")
+name = input("What is your name ? --->")
+fare = eval(input("fare fee ---> "))
+isStudent = input("Are you currently a student (yes/no) ")
 
-if s == 'Yes':
-	print ("The 20% discount is applied")
-
-if s == 'No':
-	print ("The 20% discount will not be applied")
+if isStudent == 'yes':
+	discomt = fare *0.2
+	new_fare = fare - discount
+	print("Hi ",name)
+	print("Your Discount is ",discount)
+	print("Your new fare is ",new_fare)
+else:
+	print("Sorry ",name, "You are not eligible for student discount)

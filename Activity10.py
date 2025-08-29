@@ -1,11 +1,12 @@
-username = "samsam"
-passsword = "samsam1"
+username = 'samsam'
+passsword = 'samsam2'
 
 uname = input("username --> ")
 pword = input("password --> ")
 
-if ('username' == uname) and ('password' == pword):
+if (username == uname) and (password == pword) :
 	print("ACCESS GRANTED")
 else:
 	print("ACCESS DENIED")
+
 
